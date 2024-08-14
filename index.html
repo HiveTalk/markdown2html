@@ -70,11 +70,12 @@
     </style>
 </head>
 <body>
-
+    <h1> Markdown 2 HTML Converter </h1>
+    <p>Load Content via URL, and then download converted content in html</p>
     <form id="urlForm">
         <label for="urlInput">Enter the URL of the Markdown file:</label><br>
-        <input type="text" id="urlInput" name="urlInput" placeholder="Enter URL here" 
-        value="https://raw.githubusercontent.com/HiveTalk/presskit/main/README.md" required>
+        <input type="text" id="urlInput" name="urlInput" placeholder="https://raw.githubusercontent.com/HiveTalk/presskit/main/README.md" 
+        value="" required>
         <button type="submit">Load Content</button>
         <button id="downloadButton" disabled>Download HTML</button>
     </form>
